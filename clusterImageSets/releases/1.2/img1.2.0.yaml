@@ -1,0 +1,9 @@
+apiVersion: hive.openshift.io/v1
+kind: ClusterImageSet
+metadata:
+  labels:
+    channel: stable
+    visible: 'true'
+  name: img1.2.0-appsub
+spec:
+  releaseImage: harbor.chinauos.com/utccp-components/release:1.2.1-rc7
